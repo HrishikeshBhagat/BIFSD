@@ -17,3 +17,34 @@ for ( i = 1; i <= n; i++) {
   valueToprint += " \n";
 }
 console.log(valueToprint);
+
+
+
+
+/* print this pattern
+    #
+   ##
+  ###
+ ####   
+#####
+*/
+
+ n = 5;
+ s = "";
+for ( i = 1; i <= n; i++) {
+  // here printing spaces
+  for ( j = 0; j < n - i; j++) {
+    s += " ";
+  }
+  // here printing hash
+  for ( k = 0; k < i; k++) {
+    s += "#";
+  }
+  s += "\n";
+}
+console.log(s);
+
+
+
+
+        9
