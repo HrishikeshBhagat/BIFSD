@@ -31,18 +31,6 @@ print following pattern
 5 4
 5
 
-a=5;
-var num ="";
-
-for(var i=1; i<=a; i++){
-    for(j=5; j>=i; j--){
-        num += j;
-    }
-    
-   
-    num += "\n";
-}
-console.log(num);
 */
 
 n=5;
