@@ -1,0 +1,18 @@
+*{
+    padding:5px;
+}
+.mainrow{
+    background-color: rgba(50, 131, 50, 0.849);
+}
+
+table,td,th{
+    
+    border: 1.5px solid ;
+}
+
+.color1{
+    background-color: rgba(131, 207, 226, 0.705);
+}
+.color2{
+    background-color: rgba(143, 177, 185, 0.336);
+}
