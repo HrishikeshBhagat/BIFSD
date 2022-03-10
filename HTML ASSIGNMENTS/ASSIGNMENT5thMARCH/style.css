@@ -13,9 +13,14 @@ body {
     background-color: rgba(50, 131, 50, 0.849);
 }
 
-table,td,th{
+table{
     
-    border: 2px solid black ;
+    border: 3px solid rgba(0, 0, 0, 0.582) ;
+}
+td, tr{
+        align-content: center;
+    border: 1.5px solid rgba(0, 0, 0, 0.425) ;
+
 }
 
 .color1{
