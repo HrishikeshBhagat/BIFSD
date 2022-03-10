@@ -1,5 +1,13 @@
-*{
-    padding:5px;
+body {
+    margin: 0;
+    padding: 0;
+    border: 15px solid rgb(230, 226, 227);
+}
+.tableone{
+    font-size: 20px;
+    padding: 35px;
+
+
 }
 .mainrow{
     background-color: rgba(50, 131, 50, 0.849);
@@ -7,7 +15,7 @@
 
 table,td,th{
     
-    border: 1.5px solid ;
+    border: 2px solid black ;
 }
 
 .color1{
@@ -15,4 +23,11 @@ table,td,th{
 }
 .color2{
     background-color: rgba(143, 177, 185, 0.336);
+}
+.linkone{
+    text-decoration: none;
+   
+}
+.headingone{
+    padding-left: 35px;
 }
