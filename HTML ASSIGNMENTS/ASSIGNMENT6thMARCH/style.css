@@ -3,10 +3,7 @@
     padding: 0px;
     
 }
-body {
-    border-left: 13px solid rgba(107, 180, 143, 0.445);
-    border-top: 13px solid rgba(93, 172, 132, 0.685);
-}
+
 .mainhead{
     padding: 15px;
     color: rgba(14, 13, 13, 0.918);
@@ -42,19 +39,13 @@ body {
     justify-content: space-around;
 
 }
-.hiii {
-    text-decoration: none;
-}
+
 .menulist img{
     border-radius: 25px;
     text-align: center;
     transition: 0.3s;
 }
-.lineone{
-    margin-top: 25px;
-    border-bottom: 13px solid rgba(140, 245, 192, 0.37);
 
-}
 .headingtwo {
     padding: 30px;
     color: rgb(25, 23, 27);
