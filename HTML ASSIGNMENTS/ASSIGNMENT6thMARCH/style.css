@@ -7,6 +7,7 @@
     background: url(./images/table.jpg);
     min-height: 40vh;
     width: 100%;
+
 }
 
 .mainhead{
@@ -18,10 +19,9 @@
     text-decoration-line: underline;
     text-decoration-color: rgb(21, 148, 84);
 }
-.mainhead .heading {
-    text-align:left;
-    margin-left: 50px;
-    margin-top: 4px;
+.leafyhead .mainhead .heading {
+    /* text-align:left; */
+    margin-left: 80px;
 }
 
 .paraone {
@@ -31,6 +31,12 @@
     font-size: 15px;
     margin-top: 35px;
     font-size: 16px;
+}
+
+.partsec {
+    margin-top: 25px;
+    background-color: aliceblue;
+    min-height: 50vh;
 }
 
 .menuhead {
@@ -89,27 +95,24 @@
 
 .timingbox{
     padding: 25px;
-    background-color: rgb(36, 59, 63);
-    color: white;
-    background: url(./images/restlights.jpg);
-    opacity: 95%;
-    /* display: flex; */
-}
-.timingbox .colone h1{
-    font-weight: bolder;
-    padding: 15px;
     color: rgb(255, 255, 255);
+    background-image: url(./images/rest\ open.jpg);
+    background-size: contain;
+    /* position: absolute; */
+    background-position: center;
+
 }
+
 .timingbox .colone{
     display: flex;
     justify-content: space-around;
-    margin-top: 20px;
+    margin-top: 10px;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: lighter;
 }
 .timingbox .colone p{
     font-size: 25px;
-    margin: 25px;
+    margin: 30px;
 
 
 }
