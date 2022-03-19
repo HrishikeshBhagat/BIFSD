@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0px;
+    
+}
+.leafyhead {
+
+    background: url(./images/leafyback\ \(3\).jpg);
+    min-height: 45vh;
+    width: 100%;
+    background-size:cover;
+    background-position: 45% 80%;
+  }
+
+.mainhead{
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1.5px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 2.5rem;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(21, 148, 84);
+}
+.leafyhead h1{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+
+.quoteone {
+    background-color: aliceblue;
+    border-radius: 5px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 35px;
+    font-size: 15.5px;
+    text-align: center;
+}
+.quoteone h4{
+    font-weight: 500;
+}
+.quote {
+    color: rgba(220, 20, 60, 0.884);
+}
+
+.partsec {
+    margin-top: 25px;
+    background: linear-gradient(170.05deg, rgba(139, 209, 205, 0.9) 6.73%,
+     rgba(132, 186, 189, 0.05) 60.87%,
+      rgba(253, 255, 255, 0.446133) 91.93%);
+    min-height: 50vh;
+}
+
+.menuhead {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 2.5rem;
+    font-style:italic;
+    color: rgb(0, 0, 0);
+    
+}
+.menulist{
+    align-content: center; 
+    margin-top: 25px;
+    /* background-color: rgba(0, 0, 0, 0.253);   */
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.menulist div h1{
+    font-size: 30px;
+}
+.menulist div img:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.menulist img{
+    border-radius: 25px;
+    text-align: center;
+    transition: 0.3s;
+}
+.menulist a {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+}
+.menulist a:hover{
+    text-decoration-line: underline;
+}
+.headingtwo {
+    padding: 30px;
+    color: rgb(25, 23, 27);
+}
+.headingtwo .iconone{
+    color: rgb(4, 117, 74) ;
+}
+.dishtitle{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pgtwo {
+    padding: 10px;
+    margin-top: 15px;
+}
+.pgtwo .dishtitle{
+    display: flex;
+}
+
+.menutype {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+
+.dropbtn {
+
+    background-color: #04AA6D;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(174, 236, 236, 0.2);
+    z-index: 1;
+  }
+  .dropdown-content .prices{
+      color: #087269;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #06867c;}
+
+.timingbox{
+    padding: 25px;
+    color: rgb(255, 255, 255);
+    background-image: url(./images/rest\ open.jpg);
+    background-size: contain;
+    /* position: absolute; */
+    background-position: center;
+
+}
+.timingbox .colone{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.timingbox .colone p{
+    font-size: 25px;
+    margin: 30px;
+}
+
+.feedback{
+    text-align: center;
+    background: linear-gradient(170.05deg, rgba(190, 214, 214, 0.9) 15%,
+     rgba(231, 236, 238, 0.705) 75%,
+      rgba(216, 218, 217, 0.582) 92%);
+      min-height: 40vh;
+}
+.feedback .feedbackhead h1{
+    color: rgb(0, 0, 0);
+
+}
+
+.feedback textarea{
+    height: 100px;
+    width:40%;
+    border: 5px solid rgba(82, 167, 172, 0.295);
+    border-radius: 2px;
+}
+.feedback .inputbtn {
+    padding: 5px;
+    color: #ffffff;
+    font-size: 1rem;
+    font-family:sans-serif;
+    background-color:rgb(4, 117, 74);
+}
+
+.feedback .inputbtn:hover{
+    background-color: rgb(32, 156, 80);
+}
+
+.contactbox h1{
+    margin-top: 15px;
+    
+    text-align: center;
+    font-size: 2em;
+}
+.contactdetails{
+    text-align:center;
+    padding: 25px;
+}
+.contactdetails p{
+    padding: 5px;
+}
+.contactdetails p .contactoption{
+    color: #087269;
+    font-size: 17px;
+}
