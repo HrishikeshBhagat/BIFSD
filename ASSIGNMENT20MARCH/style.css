@@ -3,6 +3,7 @@
     font-size: 14px;
     color: rgb(5, 105, 112);
 }
+
 .board .whitebox, .blackbox .piece{
     font-size: 35px;
     /* margin-left: 20px; */
@@ -21,7 +22,7 @@
     height: 80px;
 }
 .board .blackbox{
-    background-color: rgba(0, 0, 0, 0.411);
+    background: linear-gradient(93.88deg, rgba(26, 146, 163, 0.79) 2.19%, rgba(15, 69, 118, 0.87) 99.23%);
     border: 1px solid rgb(7, 76, 97);
     width: 80px;
     height: 80px;
