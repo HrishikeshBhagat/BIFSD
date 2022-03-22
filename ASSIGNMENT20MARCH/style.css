@@ -10,13 +10,6 @@
     justify-content: center;
     align-items: center;
 }
-/* .mainboard{
-    background-color: rgb(225, 235, 231);
-    width: 100%;
-    border: 25px solid #333;
-} */
-
-
 .board{
     display: flex;
     justify-content: center;
