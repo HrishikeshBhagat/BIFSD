@@ -1,0 +1,35 @@
+.heading{
+    text-align: center;
+    font-size: 14px;
+    color: rgb(5, 105, 112);
+}
+.board .whitebox, .blackbox .piece{
+    font-size: 35px;
+    /* margin-left: 20px; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+/* .mainboard{
+    background-color: rgb(225, 235, 231);
+    width: 100%;
+    border: 25px solid #333;
+} */
+
+
+.board{
+    display: flex;
+    justify-content: center;
+}
+.whitebox{
+    background-color: rgb(226, 234, 235);
+    border: 1px solid rgb(7, 76, 97);
+    width: 80px;
+    height: 80px;
+}
+.board .blackbox{
+    background-color: rgba(0, 0, 0, 0.411);
+    border: 1px solid rgb(7, 76, 97);
+    width: 80px;
+    height: 80px;
+}

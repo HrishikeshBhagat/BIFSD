@@ -3,12 +3,24 @@
     padding: 0px;
     
 }
+.mainpg{
+    transition: 4s;
+}
 .leafyhead {
 
-    background: url(./images/leafyback\ \(3\).jpg);
+    background: url(./images/leafyback4.jpg);
+    /* background: url(./images/leafyback\ \(3\).jpg); */
     min-height: 45vh;
     width: 100%;
     background-size:cover;
+    background-position: 45% 80%;
+  }
+  .leafyhead:hover{
+      background: url(./images/leafyback\ \(3\).jpg);
+      transition: 2.5s;
+      min-height: 45vh;
+    width: 100%;
+    background-size:100%;
     background-position: 45% 80%;
   }
 
@@ -200,6 +212,7 @@
 }
 .feedback .inputbtn {
     padding: 5px;
+    margin-bottom: 15px;
     color: #ffffff;
     font-size: 1rem;
     font-family:sans-serif;
@@ -209,6 +222,8 @@
 .feedback .inputbtn:hover{
     background-color: rgb(32, 156, 80);
 }
+/* .feedbackopt{
+} */
 
 .contactbox h1{
     margin-top: 15px;
