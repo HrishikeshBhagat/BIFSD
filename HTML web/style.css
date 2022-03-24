@@ -3,12 +3,13 @@
     padding: 0px;
     
 }
+
 .mainpg{
     transition: 4s;
 }
 .leafyhead {
 
-    background: url(./images/leafyback4.jpg);
+    background-image: url(./images/leafyback4.jpg);
     /* background: url(./images/leafyback\ \(3\).jpg); */
     min-height: 45vh;
     width: 100%;
@@ -37,8 +38,10 @@
     padding-left: 50px;
     padding-top: 50px;
 }
-
-
+.containertwo{
+    box-shadow: 0px 0px 5px 3px rgba(196, 226, 221, 0.16), 4px 6px 10px 6px rgba(231, 243, 242, 0.29);
+border-radius: 5px;
+}
 .quoteone {
     background-color: aliceblue;
     border-radius: 5px;
@@ -48,7 +51,9 @@
     margin-top: 35px;
     font-size: 15.5px;
     text-align: center;
+    
 }
+
 .quoteone h4{
     font-weight: 500;
 }
@@ -174,7 +179,8 @@
 .timingbox{
     padding: 25px;
     color: rgb(255, 255, 255);
-    background-image: url(./images/rest\ open.jpg);
+    background-image: url(./images/open\ time.jpg);
+    background-attachment: fixed;
     background-size: contain;
     /* position: absolute; */
     background-position: center;
@@ -198,6 +204,7 @@
      rgba(231, 236, 238, 0.705) 75%,
       rgba(216, 218, 217, 0.582) 92%);
       min-height: 40vh;
+      
 }
 .feedback .feedbackhead h1{
     color: rgb(0, 0, 0);
@@ -241,4 +248,60 @@
 .contactdetails p .contactoption{
     color: #087269;
     font-size: 17px;
+}
+/* ----------------media queries---- */
+@media (min-width: 300px) and (max-width:900px){
+    #quoteone1{
+        display: block;
+    }
+}
+@media (min-width: 300px) and (max-width:900px){
+    #leafyhead1{
+        height: 30vh;
+        width: 100%;
+        background: url(./images/open\ time.jpg);
+        font-size: 25px;
+    }
+}
+@media (min-width: 250px) and (max-width:1000px){
+    #menulist1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        font-size: 15px;
+    }
+    #menuhead1{
+    font-size: 2rem;
+    }
+    #menulist1 h1{
+        font-size: 20px;
+    }
+    #timeline{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #timeline .colone{
+        display: flex;
+        justify-content: space-between;
+        /* margin-top: 10px; */
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    #timeline .colone p{
+        font-size: 20px;
+        /* margin: 10px; */
+    }
+    #menudown{
+        justify-content: space-around;
+        margin-right: 25px 25px;
+        /* width: 50%; */
+        text-align: center;
+        padding: 10px;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+    }
+    #menudown .dropbtn{
+        justify-content: space-between;
+    }
 }
