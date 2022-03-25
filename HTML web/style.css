@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+/* font-family: 'Shadows Into Light', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+/* font-family: 'Libre Baskerville', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+/* font-family: 'Libre Baskerville', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+/* font-family: 'Sacramento', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap');
+/* font-family: 'Crimson Pro', serif; */
 *{
     margin: 0;
     padding: 0px;
@@ -47,7 +57,6 @@ border-radius: 5px;
     border-radius: 5px;
     font-family:'Times New Roman', Times, serif;
     font-style: italic;
-    font-size: 15px;
     margin-top: 35px;
     font-size: 15.5px;
     text-align: center;
@@ -55,10 +64,16 @@ border-radius: 5px;
 }
 
 .quoteone h4{
-    font-weight: 500;
+    font-size: 18px;
+    /* font-family: 'Shadows Into Light', cursive; */
+    font-family: 'Crimson Pro', serif;
+    
+
+    
 }
 .quote {
-    color: rgba(220, 20, 60, 0.884);
+    color: rgb(6, 72, 116);
+    font-family: 'Libre Baskerville', serif;
 }
 
 .partsec {
@@ -68,13 +83,19 @@ border-radius: 5px;
       rgba(253, 255, 255, 0.446133) 91.93%);
     min-height: 50vh;
 }
-
+.partsec h3{
+    font-family: 'Sacramento', cursive;
+    
+}
 .menuhead {
     text-align: center;
     padding-top: 25px;
     font-size: 2.5rem;
-    font-style:italic;
+    /* font-style:italic; */
+    /* font-family: "Sacramento"; */
+    font-family: 'Sacramento', cursive;
     color: rgb(0, 0, 0);
+
     
 }
 .menulist{
