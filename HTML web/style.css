@@ -88,13 +88,20 @@ border-radius: 5px;
     
 }
 .menuhead {
-    text-align: center;
+    /* text-align: center;
     padding-top: 25px;
-    font-size: 2.5rem;
+    font-size: 2.5rem; */
     /* font-style:italic; */
     /* font-family: "Sacramento"; */
     font-family: 'Sacramento', cursive;
     color: rgb(0, 0, 0);
+    color: #FFFFFF;
+    background-color: rgba(0,0,0,0.55);
+    max-width: fit-content;
+    margin: auto;
+    padding: 1.3rem;
+    border: 4px double #d3d025;
+    /* padding-bottom: 0.5rem; */
 
     
 }
@@ -207,6 +214,12 @@ border-radius: 5px;
     background-position: center;
 
 }
+.timingbox h1{
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+    color: #f0ec0a ;
+    font-weight: 500;
+}
 .timingbox .colone{
     display: flex;
     justify-content: space-around;
@@ -235,7 +248,7 @@ border-radius: 5px;
 .feedback textarea{
     height: 100px;
     width:40%;
-    border: 5px solid rgba(82, 167, 172, 0.295);
+    border: 5px double rgba(7, 94, 109, 0.726);
     border-radius: 2px;
 }
 .feedback .inputbtn {
