@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js"></script>
+    <title>Ketboard</title>
+</head>
+<body>
+    <div class="kboard">
+        <h2>On Screen Keyboard</h2>
+        <button class="redButton" id="capsButton" type="button" onclick="capsLockFunction()">Caps Lock</button>
+        <div class="keybtns">
+            <div class="keysrowOne">
+        <button class="btnA" type="button" onclick="stringFunction('Q')">Q</button>
+        <button type="button" onclick="stringFunction('W')">W</button>
+        <button type="button" onclick="stringFunction('E')">E</button>
+        <button type="button" onclick="stringFunction('R')">R</button>
+        <button type="button" onclick="stringFunction('T')">T</button>
+        <button type="button" onclick="stringFunction('Y')">Y</button>
+        <button type="button" onclick="stringFunction('U')">U</button>
+        <button type="button" onclick="stringFunction('I')">I</button>
+        <button type="button" onclick="stringFunction('O')">O</button>
+        <button type="button" onclick="stringFunction('P')">P</button>
+            </div>
+        
+        <div class="keysrowTwo">
+        <button type="button" onclick="stringFunction('A')">A</button>
+        <button type="button" onclick="stringFunction('S')">S</button>
+        <button type="button" onclick="stringFunction('D')">D</button>
+        <button type="button" onclick="stringFunction('F')">F</button>
+        <button type="button" onclick="stringFunction('G')">G</button>
+        <button type="button" onclick="stringFunction('H')">H</button>
+        <button type="button" onclick="stringFunction('J')">J</button>
+        <button type="button" onclick="stringFunction('K')">K</button>
+        <button type="button" onclick="stringFunction('L')">L</button>
+        </div>
+        
+        <div class="keysrowThree">
+        <button type="button" onclick="stringFunction('Z')">Z</button>
+        <button type="button" onclick="stringFunction('X')">X</button>
+        <button type="button" onclick="stringFunction('C')">C</button>
+        <button type="button" onclick="stringFunction('V')">V</button>
+        <button type="button" onclick="stringFunction('B')">B</button>
+        <button type="button" onclick="stringFunction('N')">N</button>
+        <button type="button" onclick="stringFunction('M')">M</button>
+        </div> 
+        <div >
+            <button class="spacebtn" type="button" onclick="stringFunction(' ')">Space</button>
+        </div>
+        </div>
+    </div>
+<br>
+<br>
+<div class="typeString">
+    <h4>Given String :</h4><span id="demo1"></span>
+</div>   
+</body>
+</html>
